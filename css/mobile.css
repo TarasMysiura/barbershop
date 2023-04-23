@@ -5,4 +5,11 @@
   .hero-wrap {
     padding: 210px 30px;
   }
+  
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  
+  .header {
+    left: calc((100% - 480px) / 2);
+  }
 }

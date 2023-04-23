@@ -115,7 +115,35 @@
     display: block;
     margin: 0 auto;
   }
-
+  /*---------- BENEFITS------------ */
+  .benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .benefits > .container {
+    flex-direction: row;
+    gap: 130px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: ; */
+  }
+  .benefits-wrap {
+    max-width: 500px;
+    order: 2;
+  }
+  .benefits-list {
+    width: 370px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    order: 1;
+  }
+  .benefits-item {
+    width: 170px;
+    height: 133px;
+    background-color: #f7f7f7;
+    padding: 20px 24px;
+  }
   /* --------------------------- */
   .barbers {
     padding-top: 120px;
