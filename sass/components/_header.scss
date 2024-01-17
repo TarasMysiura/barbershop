@@ -1,0 +1,35 @@
+.page-header{
+    width: 100%;
+    position: absolute; 
+
+    @media screen and (max-width:767px) {
+        padding-top: 40px;
+    }
+}
+
+.page-header__container{
+   
+        display: flex;
+        align-items: center;
+       
+                 
+}
+
+.menu-toggle{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    
+    
+
+    @media screen and (min-width:768px) {
+        display:none;
+    }
+
+}

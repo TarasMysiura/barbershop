@@ -1,0 +1,44 @@
+.scrollToTopBtn{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 10px;
+
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    @media screen and (min-width:768px){
+        width: 50px;
+        height: 50px;
+        
+    }
+
+        
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-icon{
+    fill: #ffffff;
+
+    @media screen and (min-width:768px){
+        width: 40px;
+        height: 40px;
+    }
+
+       
+}

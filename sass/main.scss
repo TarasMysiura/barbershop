@@ -1,0 +1,28 @@
+// utils
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// base
+@import './base/reset';
+@import './base/common';
+@import './base/container';
+
+// components
+@import './components/header';
+@import './components/site-nav';
+@import './components/logo';
+@import './components/menu';
+@import './components/btn';
+@import './components/connect';
+@import './components/hero';
+@import './components/about';
+@import './components/prices';
+@import './components/benefits';
+@import './components/barbers';
+@import './components/gallery';
+@import './components/contacts-wrap';
+@import './components/online';
+@import './components/contacts';
+@import './components/footer';
+@import './components/mobile-menu';
+@import './components/scroll-btn';
